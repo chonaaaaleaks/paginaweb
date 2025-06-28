@@ -1,18 +1,128 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Laboratorio 3</title>
+    <title>Monks's Helados</title>
 </head>
 <body>
-    <div>
-        <h2>Animate al coworking</h2>
-        <h1>Le damos lugar <br>a tus ideas</h1>
-        <p>Alquiler temporal de <strong>espacios de trabajo compartido</strong></p>
-        <img src="./img/img-cowork.png" alt="logo cowork">
-        <p class="texto">Espacio de trabajo es un área común con ubicación móvil,<br> sólo trae tu computadora portátil, elegí un lugar disponible<br> y ponte a trabajar</p>
-    </div>
-</body>
+    <header>
+        <div class="container">
+            <nav>
+                <a href="#" class="logo">Monk's</a>
+                <ul class="nav-links">
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#sabores">Nuestros Sabores</a></li>
+                    <li><a href="#sucursales">Sucursales</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero" id="inicio">
+        <div class="hero-content">
+            <h1>¡Hacemos helados felices!</h1>
+            <p>Disfruta de nuestros deliciosos sabores elaborados con ingredientes 100% naturales y fabricación artesenal.</p>
+            <a href="#sabores" class="btn">Ver Sabores</a>
+        </div>
+    </section>
+
+    <section id="sabores">
+        <div class="container">
+            <h2 class="section-title">Nuestros Sabores 🍨</h2>
+            <div class="sabores-grid">
+                <div class="sabor-card">
+                    <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/0cae7bc0-c5ab-4870-a608-19f7fb5fc477.png" alt="Helado de vainilla con trozos de vainilla real y un aspecto cremoso" class="sabor-img">
+                    <div class="sabor-content">
+                        <h3>Vainilla Clásica</h3>
+                        <p>El sabor clásico hecho con vainas de vainilla.</p>
+                        <p class="price"></p>
+                    </div>
+                </div>
+                <div class="sabor-card">
+                    <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/774b87ed-f776-43e2-b2e8-902d391e6277.png" alt="Helado de chocolate intenso con un color marrón oscuro y trozos de chocolate fundido" class="sabor-img">
+                    <div class="sabor-content">
+                        <h3>Chocolate Negro</h3>
+                        <p>Chocolate belga 70% cacao para los amantes del chocolate.</p>
+                        <p class="price"></p>
+                    </div>
+                </div>
+                <div class="sabor-card">
+                    <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/33f0a43f-f3a6-4877-bcef-6ad1d099bdbf.png" alt="Helado de fresa de color rosa con trozos de fruta real y un aspecto fresco" class="sabor-img">
+                    <div class="sabor-content">
+                        <h3>Fresa Natural</h3>
+                        <p>Fresas cultivadas localmente para un sabor fresco y natural.</p>
+                        <p class="price"></p>
+                    </div>
+                </div>
+                <div class="sabor-card">
+                    <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/85a49925-16d0-44da-9f4b-95965b20a0ef.png" alt="Helado de menta con chocolate con un color verde menta y trozos de chocolate oscuro" class="sabor-img">
+                    <div class="sabor-content">
+                        <h3>Menta con Chocolate</h3>
+                        <p>Refrescante menta combinada con trozos de chocolate.</p>
+                        <p class="price"></p>
+                    </div>
+                </div>
+                <div class="sabor-card">
+                    <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/c4dfb8f1-481c-4343-a6c3-005c92b0bdc1.png" alt="Helado de limón de color amarillo pálido con ralladura de limón visible" class="sabor-img">
+                    <div class="sabor-content">
+                        <h3>Limón Real</h3>
+                        <p>El perfecto equilibrio entre dulce y ácido con limones orgánicos.</p>
+                        <p class="price"></p>
+                    </div>
+                </div>
+                <div class="sabor-card">
+                    <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/ee542c6e-bd94-41b8-b3d0-bd0955f71b94.png" alt="Helado de cookies and cream con trozos visibles de galleta oreo en una base blanca cremosa" class="sabor-img">
+                    <div class="sabor-content">
+                        <h3>Cookies & Cream</h3>
+                        <p>Nuestra versión de este clásico con galletas premium.</p>
+                        <p class="price"></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="sucursales">
+        <div class="container">
+            <h2 class="section-title">Nuestras Sucursales 🏠</h2>
+            <div class="sucursales-grid">
+                <div class="sucursal-card">
+                    <h3>Sucursal Rosario</h3>
+                    <p><strong>Dirección:</strong>  Moreno y Tucumán</p>
+                    <p><strong>Horario:</strong> -- </p>
+                    <div class="mapa">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13393.731856273704!2d-60.66163392943065!3d-32.93957662780807!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95b7ab38dda06981%3A0x20a29cd576200380!2sMonk&#39;s!5e0!3m2!1ses!2sar!4v1751148586901!5m2!1ses!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+                <div class="sucursal-card">
+                    <h3>Sucursal Rosario</h3>
+                    <p><strong>Dirección:</strong> Mitre y Tucumán</p>
+                    <p><strong>Horario:</strong> -- </p>
+                    <div class="mapa">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3348.3553833105852!2d-60.64093492342283!3d-32.94162547163669!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95b7ab22eb0bb621%3A0x437a40a4c24c39e6!2sMonk&#39;s!5e0!3m2!1ses!2sar!4v1751148505424!5m2!1ses!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer id="contacto">
+        <div class="container">
+            <div class="footer-content">
+                <h2>Monk's Helados</h2>
+                <div class="social-links">
+                    <a href="#">Facebook</a>
+                    <a href="#">Instagram</a>
+                    <a href="#">Twitter</a>
+                </div>
+                <p>© 2023 Monk's. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    </body>
 </html>
